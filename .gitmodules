@@ -1,4 +1,12 @@
 [submodule "recommendation/dlrm"]
-	path = recommendation/dlrm
+	path = retired_benchmarks/dlrm/dlrm
 	url = https://github.com/facebookresearch/dlrm.git
         branch = mlperf
+[submodule "flux/torchtitan"]
+	path = text_to_image/torchtitan
+	url = https://github.com/pytorch/torchtitan.git
+	branch = mlperf-training-flux.1
+[submodule "llm_post_training/RL"]
+	path = llm_post_training/RL
+	url = https://github.com/NVIDIA-NeMo/RL.git
+	branch = mlperf-training-qwen35-main
